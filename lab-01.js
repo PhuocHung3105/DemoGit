@@ -7,3 +7,11 @@ for ( let i =0; i < arr.length; i++) {
   }
 
 console.log("Tổng các số trong mảng là: " + sum);
+
+
+//Cau 2
+arr.sort(function(a, b) {
+    return a - b;
+});
+
+console.log(arr);
